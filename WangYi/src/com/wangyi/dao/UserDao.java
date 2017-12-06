@@ -1,5 +1,5 @@
 package com.wangyi.dao;
 
-public class UserDao {
-
+public interface UserDao {
+	public void CheckUser();
 }
