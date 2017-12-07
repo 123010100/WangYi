@@ -2,6 +2,6 @@
 <!DOCTYPE configuration SYSTEM "http://mybatis.org/dtd/mybatis-3-config.dtd" >
 <configuration>
 	<typeAliases>
-		<package name="com.hdaccp.sm.entity"/>
+		<package name="com.wangyi.entity"/>
 	</typeAliases>
 </configuration>
