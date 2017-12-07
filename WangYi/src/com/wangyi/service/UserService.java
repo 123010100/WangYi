@@ -1,5 +1,7 @@
 package com.wangyi.service;
 
-public interface UserService {
+import com.wangyi.entity.User;
 
+public interface UserService {
+	public User checkLogin(String user_code,String user_password);
 }
