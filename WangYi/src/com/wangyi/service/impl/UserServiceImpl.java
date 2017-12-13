@@ -16,7 +16,6 @@ public class UserServiceImpl implements UserService {
 
 	@Override
 	public User checkLogin(String user_code, String user_password) {
-		
 		return userdao.getLoginUser(user_code, user_password);
 	}
 }

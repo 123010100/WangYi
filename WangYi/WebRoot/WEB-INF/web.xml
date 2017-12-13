@@ -36,7 +36,8 @@
   
   	<!-- 监听web服务器(tomcat)的启动 
   	当application对象创建的时候,标志web服务器启动了
-  -->
+  	-->
+  	
   <listener>
   	<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
   </listener>

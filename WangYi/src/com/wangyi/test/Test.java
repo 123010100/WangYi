@@ -7,7 +7,6 @@ import com.wangyi.entity.User;
 import com.wangyi.service.UserService;
 
 public class Test {
-	
 	private static ApplicationContext ac;
 	
 	static{
@@ -16,7 +15,7 @@ public class Test {
 	
 	private static void test(){
 		UserService u =(UserService)ac.getBean("userService");
-		User s=u.checkLogin("714111186","123456");
+		User s=u.checkLogin("646592864","123456");
 		System.out.println(s.getUser_name());
 	}
 
